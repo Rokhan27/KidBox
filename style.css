@@ -42,3 +42,16 @@ img{
   /* transform: translateY(-2px); */
   /* transform: translateY(4px); */
 }
+@media screen and (max-width: 768px){
+  .header{
+    margin-top: 70px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+}
